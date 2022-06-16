@@ -1,0 +1,3 @@
+127.0.0.1 - - [19/Nov/2020:08:38:42 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [19/Nov/2020:08:38:44 +0530] "GET /FirstServletProgram/first.html HTTP/1.1" 200 154
+0:0:0:0:0:0:0:1 - - [19/Nov/2020:08:44:49 +0530] "GET /FirstServletProgram/first.html HTTP/1.1" 200 153

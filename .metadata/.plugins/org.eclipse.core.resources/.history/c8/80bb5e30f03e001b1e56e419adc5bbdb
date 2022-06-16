@@ -1,0 +1,18 @@
+package jsp.org.app;
+
+public class Nani 
+{
+	public static void a(int i,int j)
+	{
+		System.out.println(i+j);
+	}
+	private static void b(int m,double n)
+	{
+		System.out.println(m+n);
+	}
+	public static void main(String[] args) 
+	{
+		a(1,2);
+		b(5,3);
+	}
+}

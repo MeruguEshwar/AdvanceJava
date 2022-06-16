@@ -1,0 +1,23 @@
+package jsp.org.app;
+
+import java.util.Scanner;
+
+public class Prog6 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the values hw many u want..");
+		int b=scan.nextInt();
+		System.out.println("enter values of"+b );
+		int a=scan.nextInt();
+		if(a%2==0)
+		{
+			System.out.println(a);
+		}
+		else
+		{
+			System.out.println();
+		}
+	}
+}

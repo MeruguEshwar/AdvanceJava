@@ -1,0 +1,5 @@
+127.0.0.1 - - [13/Dec/2020:13:28:32 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/Dec/2020:13:28:35 +0530] "GET /SecondHttpProgram/LogIn.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Dec/2020:13:28:35 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [13/Dec/2020:13:28:37 +0530] "GET /SecondHttpProgram/email.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Dec/2020:13:28:45 +0530] "POST /SecondHttpProgram/CheckEmailId HTTP/1.1" 200 354

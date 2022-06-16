@@ -1,0 +1,56 @@
+package jsp.org.com;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+
+public class BussinessLogic 
+{
+	public static void main(String[] args) 
+	{
+		String url="jdbc:mysql://localhost:3306?user=root&password=12345";
+		
+		String query="Select * from ";
+		try 
+		{
+			Connection connection = DriverManager.getConnection(url);
+			
+			Scanner scan=new Scanner(System.in);
+			System.out.println("Enter Customer Name...");
+			String name=scan.next();
+			
+			System.out.println("Enter Customer Email...");
+			String email=scan.next();
+			
+			System.out.println("Enter Customer MobileNumber...");
+			String MobileNumber=scan.next();
+			
+			System.out.println("Enter Type Of BroadBand[Pre/Post]");
+			String Type=scan.next();
+			
+			System.out.println("Enter scheme Name");
+			String SchemeName=scan.next();
+			
+			System.out.println("Enter ConnectionDuration");
+			int ConnectionDurationr=scan.nextInt();
+		
+			System.out.println("Enter RentalCost");
+			int RentalCost=scan.nextInt();
+			
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(query);
+			
+			
+			
+			connection.close();
+		} 
+		catch (SQLException e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

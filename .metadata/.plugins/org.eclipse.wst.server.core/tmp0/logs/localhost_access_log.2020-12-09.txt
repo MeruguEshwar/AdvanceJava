@@ -1,0 +1,9 @@
+127.0.0.1 - - [09/Dec/2020:12:02:53 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [09/Dec/2020:12:02:53 +0530] "GET /TenthServletProject/WEB-INF/test1FrontEnd.html HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [09/Dec/2020:12:02:54 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [09/Dec/2020:12:09:00 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [09/Dec/2020:12:09:01 +0530] "GET /TenthServletProject/Test1FrontEnd.html HTTP/1.1" 200 268
+0:0:0:0:0:0:0:1 - - [09/Dec/2020:12:09:18 +0530] "GET /TenthServletProject/Test1?euors=10 HTTP/1.1" 500 3825
+127.0.0.1 - - [09/Dec/2020:12:16:54 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [09/Dec/2020:12:16:55 +0530] "GET /TenthServletProject/Test2FrontEnd.html HTTP/1.1" 200 280
+0:0:0:0:0:0:0:1 - - [09/Dec/2020:12:17:05 +0530] "GET /TenthServletProject/Test2?Nani=10 HTTP/1.1" 200 7

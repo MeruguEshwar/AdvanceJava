@@ -1,0 +1,7 @@
+127.0.0.1 - - [27/Nov/2020:11:11:27 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:11:11:29 +0530] "GET /ThirdServeletProgram/Third.html HTTP/1.1" 200 222
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:11:11:30 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:11:11:32 +0530] "GET /ThirdServeletProgram/GenerateDateAndTime? HTTP/1.1" 200 -
+127.0.0.1 - - [27/Nov/2020:11:15:43 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:11:15:44 +0530] "GET /ThirdServeletProgram/Third.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:11:15:47 +0530] "GET /ThirdServeletProgram/GenerateDateAndTime? HTTP/1.1" 200 -

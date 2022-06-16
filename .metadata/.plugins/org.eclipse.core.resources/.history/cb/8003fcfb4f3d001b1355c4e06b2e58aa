@@ -1,0 +1,27 @@
+//WAP to find the unique element in a given array,assuming all elements have duplicates except one
+package jsp.org.app;
+public class Maincls1 
+{
+	public static void main(String[] args) 
+	{
+		int count=0;
+		int arr[]=new int[] {1,1,2,2,3,4,4,5,6,6,7};
+	
+		for(int i=0;i<arr.length-1;i++)
+		{
+			int status=1;
+			for(int j=i-1;j>=0;j--)
+			{
+				if(arr[i]==arr[j])
+				{
+					status++;
+				}
+			}
+			if(status==1)
+			{
+				count++;
+			}
+		}
+	System.out.println(count);
+	}
+}

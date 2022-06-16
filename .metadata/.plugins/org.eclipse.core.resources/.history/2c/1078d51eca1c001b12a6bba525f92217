@@ -1,0 +1,14 @@
+package org.jsp.app;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Program2 
+{
+	public static void main(String[] args) 
+	{
+		String url="jdbc:mysql://localhost?3306:username=root&password=12345";
+		
+		Connection connection = DriverManager.getConnection(url);
+	}
+}

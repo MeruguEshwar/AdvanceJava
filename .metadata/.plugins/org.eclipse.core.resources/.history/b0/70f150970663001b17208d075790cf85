@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="CheckEmailId">
+			Enter UserId:<input type="text" name="ty">
+			<br><br>
+			Enter Pass:<input type="password">
+			<br><br>
+			<input type="submit" value="logIn">
+			<br><br>
+			<a href="email.html" >ForgotPass</a>
+	</form>
+</body>
+</html>
