@@ -1,0 +1,4 @@
+
+Jan 23, 2021 15:48:45.322 NEW SESSION
+Jan 23, 2021 15:48:45.322 [0123/154845.311:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 23, 2021 16:40:11.771 [8756:8076:0123/164011.770:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106

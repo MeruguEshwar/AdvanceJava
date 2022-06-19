@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;JDBC_JPQL/src/jsp/org/app/Select.java&apos;" deleteContents="false" description="Delete resource &apos;JDBC_JPQL/src/jsp/org/app/Select.java&apos;" element1="/JDBC_JPQL/src/jsp/org/app/Select.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1609839769315"/>
+</session>
