@@ -1,7 +1,0 @@
-INDEX VERSION 1.131
-D:\JavaProjectWorkspace\Advjva\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1027923214.index
-\SecJspProject\src
-D:\JavaProjectWorkspace\Advjva\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\527807790.index
-\FrtJspProgram\src
-D:\JavaProjectWorkspace\Advjva\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1350066851.index
-\ThirdJspProgram\src

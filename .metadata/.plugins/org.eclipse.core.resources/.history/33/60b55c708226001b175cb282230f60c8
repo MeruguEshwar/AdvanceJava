@@ -1,9 +1,0 @@
-package jsp.org.com;
-
-public class nan 
-{
-	public static void main(String[] args) 
-	{
-		System.out.println("Hello nani");
-	}
-}
